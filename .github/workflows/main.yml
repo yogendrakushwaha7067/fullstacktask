@@ -18,9 +18,6 @@ jobs:
     steps:
       # Check out the code from your repository
       - uses: actions/checkout@v3
-        # Use Node.js 20 for compatibility
-        with:
-          node-version: '20'
 
       # Setup Flutter environment (without Java version check)
       - uses: subosito/flutter-action@v2
